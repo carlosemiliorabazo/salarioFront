@@ -18,8 +18,9 @@ public class EmpleadoBRTest {
 
     @Test
     public void calculaSalarioBruto() {
-        assertTrue(true);
-    }
+
+//        fail("Esto es un error a propósito");
+        assertTrue("Este sí pasa", true);
 
     @Test
     public void calculaSalarioNeto() {
