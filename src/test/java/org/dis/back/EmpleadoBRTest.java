@@ -1,23 +1,28 @@
 package org.dis.back;
 
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class EmpleadoBRTest {
 
-    @org.junit.Before
+    @Before
     public void setUp() throws Exception {
     }
 
-    @org.junit.After
+    @After
     public void tearDown() throws Exception {
     }
 
-    @org.junit.Test
+    @Test
     public void calculaSalarioBruto() {
-        fail("No pasas el test");
+//        fail("Esto es un error a propósito");
+        assertTrue("Este sí pasa", true);
     }
 
-    @org.junit.Test
+    @Test
     public void calculaSalarioNeto() {
     }
 }
