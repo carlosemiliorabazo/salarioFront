@@ -10,10 +10,11 @@ pipeline {
 				steps {
 					sh 'mvn test'
 				}
+			}
 			stage('Run') {
 				steps {
 					sh 'mvn jetty:run'
 				}
 			}
 		}
-	}
+}
